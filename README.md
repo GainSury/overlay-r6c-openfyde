@@ -28,7 +28,7 @@ This repository contains the following packages:
 <br>
 
 
-## About the board `edge2-openfyde`
+## About the board `r6c-openfyde`
  - This board specifically targets the [NanoPi R6C](https://www.friendlyelec.com/index.php?route=product/product&product_id=291):
     ![NanoPi R6C](https://www.friendlyelec.com/image/catalog/description/R6C_en_03.jpg)
 
