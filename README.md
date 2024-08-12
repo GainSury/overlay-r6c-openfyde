@@ -1,4 +1,4 @@
-# overlay-edge2-openfyde
+# overlay-r6c-openfyde
 
 ![Logo badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fopenfyde-badge-wivuxrq8xzvh.runkit.sh%2F) ![Release badge](https://img.shields.io/github/v/release/openFyde/overlay-edge2-openfyde?label=latest%20release%20image)
 
@@ -14,27 +14,8 @@ Each board has a corresponding **overlay** that defines the configuration for it
 
 <br>
 
-## Use tips
-
-### Fan controls
-We provide same script named fan.sh as [official one](https://docs.khadas.com/products/sbc/edge2/add-ons/cooling-fan).
-
-
-### Device overlays
-Instead of `/boot/dtb/rockchip/rk3588s-khadas-edge2.dtb.overlay.env`, openfyde uses Env.txt under `/mnt/stateful_partition/fyde/`.
-
-For details, please refer to the [FAQ](https://fydeos.io/docs/knowledge-base/recipes/RK3588-soc-how-to-use-device-tree-overlay/).
-
-Take [TS050 Touchscreen](https://docs.khadas.com/products/sbc/edge2/add-ons/ts050-touchscreen) as sample, you need add `mipi-panel` to node `overlays=` not `fdt_overlays`.
-
-```
-cat /mnt/stateful_partition/fyde/Env.txt
-overlays=mipi-panel
-```
-<br>
-
 ## About this repository
-This repository is the overlay for the `edge2-openfyde` board, it's part of the openFyde open-source project.
+This repository is the overlay for the `r6c-openfyde` board based on `edge2-board` which is part of the openFyde open-source project.
 
 This repository contains the following packages:
 
@@ -48,9 +29,8 @@ This repository contains the following packages:
 
 
 ## About the board `edge2-openfyde`
- - This board specifically targets the [khadas edge 2](https://www.khadas.com/edge2):
-
-    ![khadas edge 2](https://static.wixstatic.com/media/04d639_4bb7375e2d8f4474b8d371f50948c4f0~mv2.png/v1/fill/w_1665,h_2278,al_c,q_95,enc_auto/Edge2_Interface.png)
+ - This board specifically targets the [NanoPi R6C](https://www.friendlyelec.com/index.php?route=product/product&product_id=291):
+    ![NanoPi R6C](https://www.friendlyelec.com/image/catalog/description/R6C_en_03.jpg)
 
 <br>
 
