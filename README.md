@@ -23,7 +23,7 @@ This repository contains the following packages:
 | Packages                   | Description        | Reference                                                                              |
 |----------------------------|--------------------|----------------------------------------------------------------------------------------|
 | chromeos-base/device-appid | Setup device appid |                                                                                        |
-| metadata/layout.conf       | inheritance        | [overlay-edge2-openfyde-base](https://github.com/openFyde/overlay-edge2-openfyde-base) |
+| metadata/layout.conf       | inheritance        | [overlay-r6c-openfyde-base](https://github.com/GainSury/overlay-r6c-openfyde-base/tree/main) |
 
 <br>
 
